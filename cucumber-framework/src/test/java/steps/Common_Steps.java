@@ -11,7 +11,7 @@ public class Common_Steps {
 	
 	@Before(order = 0)
 	public void setUp() {
-		 System.setProperty("webdriver.chrome.driver", "webdrivers/chromedriver");
+		 System.setProperty("webdriver.chrome.driver", "webdrivers/chromedriver.exe");
 		 driver = new ChromeDriver();
 		 System.out.println("Global Before Hook Executed");
 	}

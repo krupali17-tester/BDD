@@ -13,7 +13,8 @@ import io.cucumber.junit.CucumberOptions;
 		dryRun = false,
 		strict = true,
 		monochrome = true,
-		tags = {"@P1 and @P2"}
+		tags = {"@P1"}
+		///tags = {"@P1 and @P2"}
 		//name = {"Logo"}
 		)
 public class TestRunner {

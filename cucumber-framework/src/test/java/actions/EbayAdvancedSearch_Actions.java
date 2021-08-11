@@ -13,7 +13,7 @@ public class EbayAdvancedSearch_Actions {
 	
 	public EbayAdvancedSearch_Actions(Common_Steps common_steps) {
 		this.driver = common_steps.getDriver();
-		ebayadvancedsearch_elements = new 	EabyAdvancedSearch_Elements(driver);
+		ebayadvancedsearch_elements = new EabyAdvancedSearch_Elements(driver);
 	}
 	
 	public void clickOnEbayLogo() {
